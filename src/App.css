@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.navbar {
+  display: flex;
+  flex-Direction: column;
+  align-Items: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}

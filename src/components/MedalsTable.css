@@ -1,0 +1,53 @@
+/* CSS for MedalsTable Component */
+.medals-table-container {
+    font-family: Arial, sans-serif;
+    width: 90%; /* Adjust the width for larger screens if needed */
+    margin: 0 auto;
+  }
+  
+  .medals-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .medals-table th,
+  .medals-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .medals-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .medals-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .medals-table tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .medals-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media only screen and (max-width: 768px) {
+    .medals-table-container {
+      width: 100%;
+    }
+  
+    .medals-table th,
+    .medals-table td {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    .medals-table h2 {
+      font-size: 24px;
+    }
+  }
+  
