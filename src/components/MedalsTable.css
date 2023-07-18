@@ -38,6 +38,7 @@
   @media only screen and (max-width: 768px) {
     .medals-table-container {
       width: 100%;
+      padding: 10px;
     }
   
     .medals-table th,
